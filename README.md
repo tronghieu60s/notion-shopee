@@ -1,38 +1,30 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+# Notion Shopee
 
-## Usage
+🔥 Shopee + Notion (VN)
 
-### Create an App
 
+## Installation
+
+- Install NodeJS LTS: https://nodejs.org/en/download/
+
+- Install all packages:
 ```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
-
-# with pnpm
-$ pnpm dlx create-nextron-app my-app --example with-tailwindcss
+npm install
 ```
 
-### Install Dependencies
-
+- Run this project on develop:
 ```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
+npm run dev
 ```
 
-### Use it
-
+- Run this command for build project:
 ```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
-
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+npm run build
 ```
+
+
+## Contributing
+
+Pull requests and stars are highly welcome.
+
+For bugs and feature requests, please create an issue.

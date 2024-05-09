@@ -1,6 +1,6 @@
-appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+appId: app.notion.shopee
+productName: Notion Shopee
+copyright: Copyright © 2024 Notion Shopee
 directories:
   output: dist
   buildResources: resources
