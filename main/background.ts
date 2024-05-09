@@ -104,7 +104,7 @@ ipcMain.on("scrapeCart", async (event, params) => {
     let index = 0;
     let isStop = false;
     let chunkData = [];
-    const chunkSize = 10;
+    const chunkSize = 5;
     do {
       chunkData = await Promise.all(
         urls
@@ -183,8 +183,7 @@ ipcMain.on("scrapeCart", async (event, params) => {
       orderItems.map((orderItem) => {
         const findPage = pages.find(
           (page: any) =>
-            page.properties["Mã DH"].rich_text[0].plain_text ===
-            `${orderItem.order_id}`
+            page.properties["Mã DH"].rich_text[0].plain_text.includes(`${orderItem.order_id}`)
         );
 
         const orderTime = orderItem.ctime
